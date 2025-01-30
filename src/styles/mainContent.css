@@ -1,0 +1,92 @@
+/* HEADER */
+
+.mainContainer {
+  max-width: 800vw;
+  height: 100vh;
+  margin-left: 320px;
+  margin-right: 56px;
+}
+
+.headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.headerNavigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerNavigation .navigation .arrowLeft {
+    margin-right: 1.25rem;
+}
+
+.arrowLeft, .arrowRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.headerLogin {
+    display: flex;
+    align-items: center;
+}
+
+.headerSearch {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.headerSearch img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.headerSearch input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis; /* Deixar os 3 pontos, precisa do de baixo junto */
+    overflow: hidden;
+    white-space: nowrap;  /* Deixa uma linha apenas */
+    outline: none;
+}
+
+.headerLogin .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.headerLogin .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
