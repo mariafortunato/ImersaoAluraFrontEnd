@@ -79,7 +79,7 @@
                 </div>
                 <div class="headerSearch">
                     <img src="./src/assets/icons/search.png" alt="">
-                    <input id="searchInput" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
                 </div>
                 <div class="headerLogin">
                     <button class="subscribe">Inscreva-se</button>
@@ -87,12 +87,11 @@
                 </div>
             </nav>
             <div class="playlistContainer">
-                <div class="resultPlaylist">
+                <div id="result-playlist">
                     <div class="playlist">
                         <h1 class="greeting">Boas vindas</h1>
                         <h2 class="session">Navegar por todas as seções</h2>
                     </div>
-                </div>
                  <!-- LIST DE CARDS -->
                  <div class="offer__scroll-container">
                     <div class="offer__list">
@@ -218,7 +217,25 @@
                             </a>
                         </section>
                     </div>
-                 </div>
+                </div>
+            </div>
+            <div id="result-artist" class="hidden">
+                <div class="grid-container">
+                    <div class="artist-card" id="">
+                        <div class="card-img">
+                            <img id="artist-img" class="artist-img" />
+                            <div class="play">
+                                <span class="fa fa-solid fa-play"></span>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a title="Foo Fighters" class="vst" href=""></a>
+                            <span class="artist-name" id="artist-name"></span>
+                            <span class="artist-categorie">Artista</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
