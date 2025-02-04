@@ -3,6 +3,7 @@
 O aplicativo construído durante a imersão front-end foi o Spotify, com Javascript, CSS e React.
 
 ## Passo a passo para inicializar o aplicativo:
-1- Instalar o node.js inicializado no terminal; <br>
-2- Escolher uma porta do localhost;  <br>
-3- usar o comando  -  npm start. 
+### No terminal
+1- Entrar na pasta spotify-react; <br>
+2- Usar o comando npm install; <br>
+3- Usar o comando npm start. 
